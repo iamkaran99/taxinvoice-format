@@ -1,0 +1,60 @@
+
+*{
+    font-family: sans-serif;
+}
+body.dark-mode{
+    background-color: black;
+    color: white;
+}
+.img{
+    height: 10vh;
+    width: 10vh;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+ 
+.form-group label{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    background-color: #888888;
+}
+
+.form-group input{
+    border-radius: 20px;
+    box-shadow: 5px 1px 5px 1px #888888;
+}
+
+.form-group input::selection{
+    border-color: grey;
+    color: black;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-group input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 5%;
+}
